@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+
+/* loginform stylesheet */
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #fff;
+	text-align: center;
+	background-color: #34c759;
+	font-weight: 500;
+}
+
+.container {
+	width: 50vh;
+	position: relative;
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0px 6px 10px rgba(0,0,0, .1);
+	border-radius: 10px;
+}
+
+h1 {
+	font-size: 24px;
+	margin: 20px 0;
+}
+
+.other_login {
+	background-color: #f7f7f7;
+	color: #000;
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+ 	text-align: center;
+ 	padding:10px 10px;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+.icons {
+	padding-right: 5px;
+	height: 16px;
+	width: 16px;
+	padding: auto 0;
+	margin-right: 5px;
+}
+
+input {
+	background-color: #f7f7f7;
+	color: #000;
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+ 	text-align: center;
+ 	padding:10px 10px;
+	font-size: 16px;
+	margin-bottom: 15px;
+	border: 1.6px solid #dde2e3;
+	font-weight: 500;
+}
+
+.submit {
+	background-color: #34c759;
+	color: #fff;
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+ 	text-align: center;
+ 	padding:10px 10px;
+	font-size: 16px;
+	margin-bottom: 5px;
+	font-weight: 700;
+}
+
+.border {
+	border: 0; /* reset */
+	margin: 15px 0;
+	border: 1px solid #dde2e3;
+}
+
+a {
+	font-size: 14px;
+	margin: 10px 0;
+	display: inline-block;
+	font-weight: 400;
+}
+
+@media (max-width: 600px) {
+	.container { /* モバイルでは全画面になります */
+		height: 100vh;
+		position: relative;
+		background-color: #fff;
+		padding: 20px;
+		border-radius: 0; 
+	}
+}
