@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pipodev | loginform #1</title>
+  
+  <!-- リセットCSS 読み込み -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+  
+  <!-- style.css 読み込み -->
+  <link rel="stylesheet" href="mainstyle.css">
+
+	<!-- BOXICONS -->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	
+</head>
+  
+<body>
+	<div class="container">
+		<h1>ログイン</h1>
+		<form action="">
+			<input type="email" name="email" placeholder="メールアドレス" required />
+			<input type="password" name="password" placeholder="パスワード" required />
+			<button class="submit">ログイン</button>
+		</form>
+			<div class="border"></div>
+			<button class="other_login" onclick=""><i class='bx bxl-google icons'></i>Googleでログイン</button>
+			<button class="other_login"><i class='bx bxl-apple icons'></i></i>Appleでログイン</button>
+			<a href="#">パスワードを忘れた場合はこちら</a>
+	</div>
+</body>
+</html>
